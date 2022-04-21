@@ -1,0 +1,37 @@
+.footer{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #a26e49; 
+}
+
+.social{
+    list-style: none;
+    padding: 5px;
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    margin-left: 40%;
+        li{
+        padding: 20px;
+        width: 20px;
+            a{
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+        }
+    }
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+}
+

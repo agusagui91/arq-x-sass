@@ -1,0 +1,62 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: black;
+}
+
+.box {
+    margin-bottom: 6 bnnb  0px;
+    margin-left: 50px;
+}
+
+.boxContainer{
+    position: absolute;
+}
+input.src {
+    padding:9px 10px 9px 32px;
+    outline: none;
+    font-size: 20px;
+    border-radius: +15px;
+    color: gray;
+    border: 3px solid grey;
+    background:#fff url("/assets/img/serch-icon.png") no-repeat 9px center;
+    width: 5px;
+    transition: all .5s;
+}      
+
+input.src:focus {
+    width: 60px;
+    background-color:#fff;
+    border-color: #8c10b3;
+    box-shadow: 0 0 5px #8c10b3;
+}  
+
+.menu_header{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 20px;
+
+    li{
+    margin-right: 10px;
+
+        a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #e7e3e2;
+        font-size:  20px;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        border-radius: 5px;
+        padding: 3px;
+        }
+    }
+}
+
+.imagen_logo{
+    width: 150px;
+    margin-left: 140%;
+}
