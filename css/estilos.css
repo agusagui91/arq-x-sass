@@ -84,7 +84,6 @@ input.src:focus {
   height: 250px; }
 
 .card2 {
-  background-color: #e7e3e2;
   width: 10%;
   margin-right: 10%;
   border: 7px groove black;
@@ -142,7 +141,7 @@ input.src:focus {
   position: relative;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif; }
-  .btn:hover {
+  .btn :hover {
     color: white;
     box-shadow: 0 4px 16px #318aac;
     transition: all 0.2s ease; }
@@ -152,7 +151,6 @@ input.src:focus {
   justify-content: center; }
 
 .tabla {
-  background-color: #dea26c;
   border: 5px solid black;
   width: 300px;
   margin: 50px;
@@ -172,7 +170,7 @@ input.src:focus {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   margin-right: 30px; }
-  .btn_submit:hover {
+  .btn_submit :hover {
     color: white;
     box-shadow: 0 4px 16px #318aac;
     transition: all 0.2s ease; }
@@ -189,10 +187,10 @@ input.src:focus {
   position: relative;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif; }
-  .btn_reset:hover {
-  color: white;
-  box-shadow: 0 4px 16px #318aac;
-  transition: all 0.2s ease; }
+  .btn_reset :hover {
+    color: white;
+    box-shadow: 0 4px 16px #318aac;
+    transition: all 0.2s ease; }
 
 .titulo1 {
   text-transform: uppercase;
@@ -233,12 +231,7 @@ input.src:focus {
   margin-left: 10%; }
 
 .titulo_gral_obras {
-  text-transform: uppercase;
-  text-decoration: underline;
-  font-family: 'Roboto', sans-serif;
-  padding: 30px;
-  font-size: 30px;
-  color: #e7e3e2; }
+  padding: 30px; }
 
 .titulo_obras {
   text-transform: uppercase;
@@ -262,8 +255,7 @@ input.src:focus {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 100px;
-  background-color: #a26e49; }
+  height: 100px; }
 
 .social {
   list-style: none;
@@ -288,3 +280,20 @@ input.src:focus {
   width: 60px;
   height: 60px;
   z-index: 2; }
+
+.color1 {
+  background-color: #dea26c; }
+
+.color2 {
+  background-color: #a26e49; }
+
+.color3 {
+  background-color: #e7e3e2; }
+
+.estilo_ {
+  color: #e7e3e2;
+  font-size: "Roboto";
+  font-family: "Roboto";
+  font-size: 30px;
+  text-decoration: underline;
+  text-transform: uppercase; }

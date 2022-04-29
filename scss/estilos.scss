@@ -3,3 +3,35 @@
 @import "main";
 @import "textos";
 @import "footer";
+
+
+$colores_fondo:(color1:#dea26c, color2:#a26e49, color3:#e7e3e2);
+
+@each $clave2, $valor2 in $colores_fondo {
+    .#{$clave2} {
+        background-color:$valor2;
+    }
+}
+
+$estilos: (
+    color: red,
+    color1: black,
+    color3: #e7e3e2,
+    fuente1: 'Roboto',
+    fuente2:'Montserrat',
+    size1: 30px,
+    size2: 20px,
+    decoration1: none,
+    decoration2: underline,
+    transform1: uppercase,
+    transform2: lowercase
+);
+
+.estilo_ {
+    color: map-get($estilos, color3);
+    font-size: map-get($estilos, fuente1);
+    font-family: map-get($estilos, fuente1);
+    font-size: map-get($estilos, size1);
+    text-decoration: map-get($estilos, decoration2);
+    text-transform: map-get($estilos, transform1);
+}
