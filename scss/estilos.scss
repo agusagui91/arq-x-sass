@@ -35,3 +35,31 @@ $estilos: (
     text-decoration: map-get($estilos, decoration2);
     text-transform: map-get($estilos, transform1);
 }
+
+.card__obras {
+    background-color: #dea26c;
+    width: 450px;
+    height: 520px;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 1px;
+    border: 5px solid black;
+}
+
+.card__proyectos{
+    @extend.card__obras;
+    background-color: #a26e49;
+    border: 2px solid #e7e3e2;
+}
+
+@mixin box ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.card__concursos{
+    @extend.card__obras;
+    @include box(550px, 620px);
+    background-color: #e7e3e2;
+}
+
