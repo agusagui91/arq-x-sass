@@ -241,6 +241,15 @@ input.src:focus {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px; }
 
+.estilo_h1 {
+  color: #e7e3e2;
+  font-family: 'Montserrat';
+  font-size: 45px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  padding: 10px; }
+
 .footer {
   display: flex;
   flex-direction: row;
