@@ -132,7 +132,7 @@ input.src:focus {
   position: relative;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif; }
-  .btn :hover {
+  .btn:hover {
     color: white;
     box-shadow: 0 4px 16px #318aac;
     transition: all 0.2s ease; }
@@ -161,7 +161,7 @@ input.src:focus {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   margin-right: 30px; }
-  .btn_submit :hover {
+  .btn_submit:hover {
     color: white;
     box-shadow: 0 4px 16px #318aac;
     transition: all 0.2s ease; }
@@ -178,7 +178,7 @@ input.src:focus {
   position: relative;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif; }
-  .btn_reset :hover {
+  .btn_reset:hover {
     color: white;
     box-shadow: 0 4px 16px #318aac;
     transition: all 0.2s ease; }
@@ -307,11 +307,3 @@ input.src:focus {
   padding: 1px;
   border: 5px solid black; }
 
-.card__proyectos {
-  background-color: #a26e49;
-  border: 2px solid #e7e3e2; }
-
-.card__concursos {
-  width: 550px;
-  height: 620px;
-  background-color: #e7e3e2; }

@@ -48,18 +48,10 @@ $estilos: (
 
 .card__proyectos{
     @extend.card__obras;
-    background-color: #a26e49;
-    border: 2px solid #e7e3e2;
-}
 
-@mixin box ($width, $height) {
-    width: $width;
-    height: $height;
 }
 
 .card__concursos{
     @extend.card__obras;
-    @include box(550px, 620px);
-    background-color: #e7e3e2;
 }
 
